@@ -9,6 +9,13 @@
     "repo": "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated",
     "issue": "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/issues",
     "author": "André Augusto Tissot",
+    "cordova": {
+        "id": "cordova-plugin-fcm-with-dependecy-updated",
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
     "scripts": {
         "build": "npm run build:www;npm run build:ionic",
         "build:www": "cd ./src/www;npm run build",
