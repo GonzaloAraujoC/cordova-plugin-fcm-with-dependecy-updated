@@ -58,6 +58,9 @@ public class FCMPluginActivity extends Activity {
 
     private static void handleNotification(Context context, Intent intent) {
         try {
+
+            Log.d(TAG, "==> FCMPluginActivity handleNotification");
+            
             PackageManager packageManager = context.getPackageManager();
 
             Intent launchIntent = packageManager.getLaunchIntentForPackage(context.getPackageName());
